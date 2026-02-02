@@ -112,4 +112,4 @@ Su diseño claro y su comportamiento intuitivo la convierten en una excelente he
 - [ ] Añadir pin de usuario
 
 # Imagen desde una URL:
-![foto] (https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)
+[![foto] (https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)](https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)
