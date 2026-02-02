@@ -105,3 +105,11 @@ Esta calculadora es un **proyecto sencillo pero completo**, ideal para aprender 
 Su diseño claro y su comportamiento intuitivo la convierten en una excelente herramienta educativa 📚✨.
 
 ---
+
+# Tareas pendientes
+- [x] Añadir funciones de memoria
+- [ ] Imcluir conversión de binario a hex
+- [ ] Añadir pin de usuario
+
+# Imagen desde una URL:
+![texto alternativo] (https://commons.wikimedia.org/wiki/File:Calculadora_cient%C3%ADfica_Famaprem_CPC-400.jpg)
