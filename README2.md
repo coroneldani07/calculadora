@@ -112,4 +112,4 @@ Su diseño claro y su comportamiento intuitivo la convierten en una excelente he
 - [ ] Añadir pin de usuario
 
 # Imagen desde una URL:
-![texto alternativo] (https://commons.wikimedia.org/wiki/File:Calculadora_cient%C3%ADfica_Famaprem_CPC-400.jpg)
+![foto] (https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)
