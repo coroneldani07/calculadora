@@ -112,4 +112,4 @@ Su diseño claro y su comportamiento intuitivo la convierten en una excelente he
 - [ ] Añadir pin de usuario
 
 # Imagen desde una URL:
-[![foto] (https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)](https://github.com/lucidrains/imagen-pytorch/blob/main/imagen.png?raw=true)
+[![foto] (https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fretrogamecoders.com%2Fwp-content%2Fuploads%2F2023%2F12%2F6502-800x600.jpeg)
