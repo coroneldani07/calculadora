@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 
 class Cliente {
@@ -26,4 +27,4 @@ class Producto {
 Cliente "1" o-- "0..*" Pedido
 Pedido "1" *-- "1..*" LineaPedido
 LineaPedido "0..*" --> "1" Producto
-
+```
