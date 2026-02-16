@@ -1,33 +1,29 @@
 classDiagram
 
 class Cliente {
-    -nombre : String
-    -email : String
-    +realizarPedido() : void
+  -String nombre
+  -String email
+  +realizarPedido()
 }
 
 class Pedido {
-    -fecha : Date
-    -estado : String
-    +calcularTotal() : double
+  -Date fecha
+  -String estado
+  +calcularTotal()
 }
 
 class LineaPedido {
-    -cantidad : int
-    -subtotal : double
-    +calcularSubtotal() : double
+  -int cantidad
+  -double subtotal
+  +calcularSubtotal()
 }
 
 class Producto {
-    -nombre : String
-    -precio : double
+  -String nombre
+  -double precio
 }
 
-%% Agregación (diamante blanco)
-Cliente "1" o-- "0..*" Pedido : tiene
+Cliente "1" o-- "0..*" Pedido
+Pedido "1" *-- "1..*" LineaPedido
+LineaPedido "0..*" --> "1" Producto
 
-%% Composición (diamante negro)
-Pedido "1" *-- "1..*" LineaPedido : contiene
-
-%% Asociación
-LineaPedido "0..*" --> "1" Producto : referencia
